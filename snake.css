@@ -1,0 +1,64 @@
+.score{
+    width: 50%;
+    margin-left: 25%;
+    background-color: goldenrod;
+    font-size: 20px;
+    text-align: center;
+    border: inset 2px black;
+    margin-bottom: 15px;
+}
+.points{
+    font-weight: 600;
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.main{
+    background: burlywood;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.mode_btn{
+    margin-left: 20px;
+}
+
+.btn{
+    font-size: 14px;
+    padding: 10px;
+    margin-right: 2%;
+    border-radius: 3px;
+    background-color: black;
+    border: inset 2px goldenrod;
+    color: goldenrod;
+    font-weight: 100;
+    position: relative;
+    margin-left: 10px;
+}
+
+.btn:hover{
+    opacity: .5;
+}
+
+.mode-titles{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-arcade{
+    text-transform: capitalize;
+}
+
+.btn-survival{
+    text-transform: capitalize;
+}
+
+.btn-explorer{
+    text-transform: capitalize;
+}
+
+.btn-shrink{
+    text-transform: capitalize;
+}
