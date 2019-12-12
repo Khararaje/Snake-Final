@@ -62,3 +62,17 @@
 .btn-shrink{
     text-transform: capitalize;
 }
+.legend{
+    top: 50px;
+    width: 20%;
+    height: 250px;
+    font-size: 12px;
+    border: 1px solid goldenrod;
+    background: white;
+    float: right;
+    margin-right: 15px;
+    padding-top: 15px;
+    font-weight: 100;
+    line-height: 1.5;
+    display: inline;
+}

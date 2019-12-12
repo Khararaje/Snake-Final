@@ -7,15 +7,28 @@
     <link rel="Stylesheet" type="text/css" href="snake.css">
 </head>
 <div class="main">
-<div class="score" id="score">Score: <div class="points">000</div></div>
-<canvas id="myCanvas" width="400" height="400" style="border: 1px solid #c3c3c3"></canvas>
+<div class="score">Score: <div id="score" class="points"></div></div>
+<canvas id="myCanvas" width="400" height="400" style="border: 1px solid #c3c3c3; display: inline;"></canvas>
+
+<div class="legend">
+    <h2>Legend</h2>
+    
+    <strong>Master</strong>: You have 3 turns to reach the food before snizzle starves.
+    <br />
+    <strong>Advanced</strong>: Colliding with borders ends game.
+    <br />
+    <strong>Survival</strong>: is getting as many oranges as you can in one session.
+    <br />
+    <strong> Arcade</strong>: Is a fun for all game mode anything goes just don't yourself.
+</div>
+
 <div class="mode_btn">
     <h3 class="mode-titles">Modes</h3>
     <h5>Instructions: Select a game mode and press an arrow key to start.</h5>
-    <button class="btn-arcade btn">arcade</button>
-    <button class="btn-survival btn">survival</button>
-    <button class="btn-explorer btn">explorer</button>
-    <button class="btn-shrink btn">shrink</button>
+    <button class="btn-arcade btn" id="arc" onclick="setArc()">arcade</button>
+    <button class="btn-survival btn" id="survival" onclick="setSur()">survival</button>
+    <button class="btn-explorer btn" id="adv" onclick="setAdv()">Advanced</button>
+    <button class="btn-shrink btn" id="Master" onclick="setMas()">Master</button>
 </div>
 </div>
 </html> 
